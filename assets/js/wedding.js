@@ -1,16 +1,23 @@
 // Affichage compte à rebours Wedding
-var Affiche=document.getElementById("compte");
+const jours=document.getElementById("jours");
+const heures=document.getElementById("heures");
+const min=document.getElementById("min");
+const secs=document.getElementById("sec");
+
 function Rebour() {
-var date1 = new Date();
-var date2 = new Date ("Sep 5 17:00:00 2022"); // Date et heure de l'événement
-var sec = (date2 - date1) / 1000; // Temps donné en millièmes de seconde
-var n = 24 * 3600; //nombre de secondes dans un jour
+const date1 = new Date();
+const date2 = new Date ("Jun 25 17:00:00 2022"); // Date et heure de l'événement
+let sec = (date2 - date1) / 1000; // Temps donné en millièmes de seconde
+const n = 24 * 3600; //nombre de secondes dans un jour
 if (sec > 0) {
     j = Math.floor (sec / n);
     h = Math.floor ((sec - (j * n)) / 3600);
     mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
     sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
-    Affiche.innerHTML = "Temps restant : " + j +" jours, "+ h +" h "+ mn +" min et "+ sec + " sec ";
+    jours.innerHTML = j + " days left ";
+    heures.innerHTML = h + " h ";
+    min.innerHTML = mn + " min ";
+    secs.innerHTML = sec + " sec ";
 }
 else if (Math.abs(sec) < (3 * n)) { // Durée de l'événement
     Affiche.innerHTML = "Temps restant : Le tournoi est en cours, venez profiter du spectacle";

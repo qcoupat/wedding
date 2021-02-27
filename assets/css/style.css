@@ -13,3 +13,10 @@
     justify-content: center;
     margin-top: 70px;
 }
+.compteAReb{
+    display: flex;
+    flex-direction: column;
+}
+.bloc1{
+    display: flex;
+}
