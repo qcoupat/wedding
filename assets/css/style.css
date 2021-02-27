@@ -1,3 +1,15 @@
 .titre{
     font: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+.titreEsp{
+    margin: 0px;
+}
+.header{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
