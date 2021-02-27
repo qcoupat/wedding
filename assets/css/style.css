@@ -16,6 +16,7 @@
 .compteAReb{
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 .bloc1{
     display: flex;
