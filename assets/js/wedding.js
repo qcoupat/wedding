@@ -2,7 +2,7 @@
 const jours=document.getElementById("jours");
 const heures=document.getElementById("heures");
 const min=document.getElementById("min");
-const secs=document.getElementById("sec");
+const secondes=document.getElementById("sec");
 
 function Rebour() {
 const date1 = new Date();
@@ -17,7 +17,7 @@ if (sec > 0) {
     jours.innerHTML = j + " days left ";
     heures.innerHTML = h + " h ";
     min.innerHTML = mn + " min ";
-    secs.innerHTML = sec + " sec ";
+    secondes.innerHTML = sec + " sec ";
 }
 else if (Math.abs(sec) < (3 * n)) { // Durée de l'événement
     Affiche.innerHTML = "Temps restant : Le tournoi est en cours, venez profiter du spectacle";
