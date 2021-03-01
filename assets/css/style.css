@@ -21,12 +21,26 @@
     z-index: 2;
     flex-direction: column;
     padding: 50px;
+    border: 1px solid black;
+
 }
 .bloc1{
     display: flex;
 }
 body{
-    background-image: url("../img/rameau.png");
+    background-image: url("../img/lavande.png");
     background-repeat: no-repeat;
-    background-position: center 250px;
+    background-position: center 300px;
+}
+#jours{
+    border: 1px solid black;
+}
+#heures{
+    border: 1px solid black;
+}
+#min{
+    border: 1px solid black;
+}
+#sec{
+    border: 1px solid black;
 }

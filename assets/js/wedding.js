@@ -14,10 +14,10 @@ if (sec > 0) {
     h = Math.floor ((sec - (j * n)) / 3600);
     mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
     sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
-    jours.innerHTML = j + " days left ";
-    heures.innerHTML = h + " h ";
-    min.innerHTML = mn + " min ";
-    secondes.innerHTML = sec + " sec ";
+    jours.innerHTML = j;
+    heures.innerHTML = h;
+    min.innerHTML = mn;
+    secondes.innerHTML = sec;
 }
 else if (Math.abs(sec) < (3 * n)) { // Durée de l'événement
     Affiche.innerHTML = "Temps restant : Le tournoi est en cours, venez profiter du spectacle";
