@@ -4,10 +4,12 @@
 .titreEsp{
     margin: 0px;
 }
-.header{
+.header{z-index: 0;
     text-align: center;
     font-weight: 800;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo{
     display: flex;
@@ -35,6 +37,7 @@ body{
     background-repeat: no-repeat;
     background-position: center 420px;
     font-family: 'Shippori Mincho B1', serif;
+    margin: 0px 40px 0px 40px;
 }
 #jours{
     color: white;
@@ -102,4 +105,41 @@ body{
     text-align: center;
     color: white;
     font-size: 20px;
+}
+.navLeft ul{
+    display: flex;
+    margin-top: 52px;
+    list-style: none;
+    flex-direction: row;
+}
+.navLeft ul li {
+    padding: 0 50px 0 50px;
+}
+.navLeft ul a{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+.navRight{
+    justify-content: space-between;
+}
+.navRight ul{
+    display: flex;
+    margin-top: 52px;
+    list-style: none;
+    flex-direction: row;
+}
+.navRight ul li {
+    padding: 0 50px 0 50px;
+}
+.navRight ul a{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+.mainHeader{
+    text-align: center;
+    display: flex;
 }
