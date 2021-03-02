@@ -2,6 +2,7 @@
     margin: 0px;
 }
 .titreEsp{
+    font-size: 50px;
     margin: 0px;
 }
 .header{z-index: 0;
@@ -142,4 +143,11 @@ body{
 .mainHeader{
     text-align: center;
     display: flex;
+}
+.saveTheDate{
+    margin-left: 50px;
+}
+.blocCaR{
+    display: flex;
+    flex-direction: column;
 }
