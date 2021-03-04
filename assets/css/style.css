@@ -24,7 +24,7 @@
     display: flex;
     z-index: 2;
     flex-direction: row;
-    padding: 50px;
+    padding: 30px;
     background-color: #183f28;
     border-radius: 10px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -43,7 +43,7 @@ body{
 #jours{
     color: white;
     border: 1px solid white;
-    font-size: 40px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -55,12 +55,12 @@ body{
     margin-right: 15px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 #heures{
     color: white;
     border: 1px solid white;
-    font-size: 40px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -72,12 +72,12 @@ body{
     margin-right: 15px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 #min{
     color: white;
     border: 1px solid white;
-    font-size: 40px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -89,12 +89,12 @@ body{
     margin-right: 15px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 #sec{
     color: white;
     border: 1px solid white;
-    font-size: 40px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -105,7 +105,7 @@ body{
     margin-left: 15px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 .navLeft ul{
     display: flex;
@@ -163,4 +163,14 @@ body{
 }
 .blocSTD{
     text-align: center;
+}
+.date{
+    font-size: 20px;
+}
+.fas{
+    color: black;
+}
+.chevron{
+    width: 3%;
+    padding-top: 35px;
 }
