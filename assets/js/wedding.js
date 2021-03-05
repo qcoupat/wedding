@@ -19,13 +19,28 @@ if (sec > 0) {
     min.innerHTML = mn;
     secondes.innerHTML = sec;
 }
-else if (Math.abs(sec) < (3 * n)) { // Durée de l'événement
-    Affiche.innerHTML = "Temps restant : Le tournoi est en cours, venez profiter du spectacle";
-}
+// else if (Math.abs(sec) < (3 * n)) { // Durée de l'événement
+//     Affiche.innerHTML = "Temps restant : Le tournoi est en cours, venez profiter du spectacle";
+// }
 else {
-    Affiche.innerHTML = "Temps restant : Le tournoi est terminé, retrouvez toutes les informations sur le site";
+    Affiche.innerHTML = "Le mariage est terminé, merci à tous d'être venus ! ";
 }
 
 tRebour=setTimeout ("Rebour();", 1000);
 }
 Rebour();
+
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        let $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+
+// Closes the Responsive Menu on Menu Item Click
+// $('.navbar-collapse ul li a').click(function() {
+//     $('.navbar-toggle:visible').click();
+// });

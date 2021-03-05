@@ -1,3 +1,11 @@
+body{
+    background-image: url("../img/lavande.png");
+    background-repeat: no-repeat;
+    background-position: center 200px;
+    background-size: 10%;
+    font-family: 'Shippori Mincho B1', serif;
+    margin: 0px 80px 0px 80px;
+}
 .titre{
     margin: 0px;
 }
@@ -31,14 +39,6 @@
 }
 .bloc1{
     display: flex;
-}
-body{
-    background-image: url("../img/lavande.png");
-    background-repeat: no-repeat;
-    background-position: center 200px;
-    background-size: 10%;
-    font-family: 'Shippori Mincho B1', serif;
-    margin: 0px 80px 0px 80px;
 }
 #jours{
     color: white;
@@ -143,6 +143,10 @@ body{
 .mainHeader{
     text-align: center;
     display: flex;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
 }
 .saveTheDate{
     font-size: 40px;
