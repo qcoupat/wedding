@@ -174,3 +174,19 @@ body{
     width: 3%;
     padding-top: 35px;
 }
+.allInfo{
+    text-align: center;
+}
+
+/* ************** MEDIA QUERIES ***************/
+
+@media (max-width:1920px){
+    .blocSTD{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 1920px){
+    .allInfo{
+        margin-top: 120px;
+    }
+}
