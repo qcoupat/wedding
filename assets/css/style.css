@@ -181,6 +181,9 @@ body{
 .allInfo{
     text-align: center;
 }
+.emoji{
+    width: 10%;
+}
 
 /* ************** MEDIA QUERIES ***************/
 
