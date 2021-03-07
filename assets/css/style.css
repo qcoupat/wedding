@@ -184,6 +184,12 @@ body{
 .emoji{
     width: 10%;
 }
+.hebergement1{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
 
 /* ************** MEDIA QUERIES ***************/
 
