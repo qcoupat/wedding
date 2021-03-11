@@ -211,7 +211,7 @@ body{
     }
 }
 
-.background {
+.background:fullscreen{
     position: fixed;
     z-index: 1;
     width: 100vw;
@@ -227,7 +227,7 @@ body{
     background-position: center 200px;
     background-size: 10%;
 }
-.background li {
+.background span {
     position: absolute;
     z-index: 1;
     display: block;
@@ -235,73 +235,72 @@ body{
     width: 20px;
     height: 20px;
     background: #183f28;
-    animation: animate 19s linear infinite;
+    animation: animate 18s linear infinite;
 }
 
-.background li:nth-child(0) {
+.background span:nth-child(0) {
     left: 65%;
     width: 183px;
     height: 183px;
     bottom: -183px;
     animation-delay: 1s;
 }
-.background li:nth-child(1) {
-    left: 65%;
+.background span:nth-child(1) {
     width: 159px;
     height: 159px;
     bottom: -159px;
     animation-delay: 3s;
 }
-.background li:nth-child(2) {
+.background span:nth-child(2) {
     left: 72%;
     width: 112px;
     height: 112px;
     bottom: -112px;
     animation-delay: 1s;
 }
-.background li:nth-child(3) {
+.background span:nth-child(3) {
     left: 47%;
     width: 154px;
     height: 154px;
     bottom: -154px;
     animation-delay: 3s;
 }
-.background li:nth-child(4) {
-    left: 50%;
+.background span:nth-child(4) {
+    left: 20%;
     width: 155px;
     height: 155px;
     bottom: -155px;
     animation-delay: 14s;
 }
-.background li:nth-child(5) {
+.background span:nth-child(5) {
     left: 72%;
     width: 125px;
     height: 125px;
     bottom: -125px;
     animation-delay: 12s;
 }
-.background li:nth-child(6) {
+.background span:nth-child(6) {
     left: 40%;
     width: 104px;
     height: 104px;
     bottom: -104px;
     animation-delay: 18s;
 }
-.background li:nth-child(7) {
+.background span:nth-child(7) {
     left: 61%;
     width: 114px;
     height: 114px;
     bottom: -114px;
     animation-delay: 34s;
 }
-.background li:nth-child(8) {
+.background span:nth-child(8) {
     left: 54%;
     width: 171px;
     height: 171px;
     bottom: -171px;
     animation-delay: 27s;
 }
-.background li:nth-child(9) {
+.background span:nth-child(9) {
     left: 38%;
     width: 112px;
     height: 112px;
