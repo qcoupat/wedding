@@ -1,8 +1,8 @@
 body{
-    background-image: url("../img/lavande.png");
+    /* background-image: url("../img/lavande.png");
     background-repeat: no-repeat;
     background-position: center 200px;
-    background-size: 10%;
+    background-size: 10%; */
     font-family: 'Shippori Mincho B1', serif;
     margin: 0px 80px 0px 80px;
 }
@@ -222,6 +222,10 @@ body{
     padding: 0;
     background: #ffff;
     overflow: hidden;
+    background-image: url("../img/lavande.png");
+    background-repeat: no-repeat;
+    background-position: center 200px;
+    background-size: 10%;
 }
 .background li {
     position: absolute;
