@@ -30,6 +30,8 @@ tRebour=setTimeout ("Rebour();", 1000);
 }
 Rebour();
 
+// ******************** Redirection de la mavbar sur la page *********************
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         let $anchor = $(this);
@@ -44,3 +46,9 @@ $(function() {
 // $('.navbar-collapse ul li a').click(function() {
 //     $('.navbar-toggle:visible').click();
 // });
+
+// ******************** Ne pas afficher les span quand non actif *********************
+let anim = document.querySelector("#background");
+let status = document.querySelector("#background").style.animationPlayState="";
+// if (anim )
+// document.getElementsByClassName("background").style.display="none";
