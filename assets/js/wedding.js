@@ -42,13 +42,3 @@ $(function() {
     });
 });
 
-// Closes the Responsive Menu on Menu Item Click
-// $('.navbar-collapse ul li a').click(function() {
-//     $('.navbar-toggle:visible').click();
-// });
-
-// ******************** Ne pas afficher les span quand non actif *********************
-let anim = document.querySelector("#background");
-let status = document.querySelector("#background").style.animationPlayState="";
-// if (anim )
-// document.getElementsByClassName("background").style.display="none";
