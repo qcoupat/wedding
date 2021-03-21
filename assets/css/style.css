@@ -1,6 +1,5 @@
 body{
     font-family: 'Shippori Mincho B1', serif;
-    margin: 0px 80px 0px 80px;
 }
 .lavande{
     z-index: 2;
@@ -327,7 +326,7 @@ body{
     font-size: 90px;
     margin-top: 0;
     z-index: 2;
-    padding-right: 55px;
+    padding-right: 180px;
     margin-top: -30px;
 }
 .photoPrgm{
@@ -345,7 +344,7 @@ body{
     padding-top: 100px;
 }
 .backgroundBlock{
-    width: 500px;
+    width: 650px;
     height: 500px;
     background-color: #F9F0EA;
     position: absolute;
@@ -362,7 +361,8 @@ body{
 }
 #section11{
     display: flex;
-    padding-top: 100px;
+    padding-top: 160px;
+    align-items: center;
 }
 #section11 img{
     display: flex;
@@ -377,6 +377,13 @@ body{
 .prgmText{
     text-align: left;
     margin-left: -200px;
+}
+.trait{
+    transform: rotate3d(0, 0, 1, 160deg);
+    border: 1px solid rgba(127,120,114,.2);
+}
+.prgmText2{
+    margin-left: 500px;
 }
 /* ************** MEDIA QUERIES ***************/
 
