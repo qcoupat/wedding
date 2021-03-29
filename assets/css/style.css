@@ -415,6 +415,9 @@ body{
     font-size: 90px;
     z-index: 2;
 }
+#zoneCanvas{
+    z-index: 0;
+}
 /* ************** MEDIA QUERIES ***************/
 
 @media (min-width:1920px){
