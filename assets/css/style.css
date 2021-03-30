@@ -417,6 +417,7 @@ body{
 }
 #zoneCanvas{
     z-index: 0;
+    position: absolute;
 }
 /* ************** MEDIA QUERIES ***************/
 

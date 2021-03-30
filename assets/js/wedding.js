@@ -3,7 +3,7 @@ const jours=document.getElementById("jours");
 const heures=document.getElementById("heures");
 const min=document.getElementById("min");
 const secondes=document.getElementById("sec");
-
+// 
 function Rebour() {
 const date1 = new Date();
 const date2 = new Date ("Jun 25 17:00:00 2022"); // Date et heure de l'événement

@@ -1,12 +1,11 @@
-// // ************************* Canvas *******************
-// var canvas = document.querySelector("#zoneCanvas");
-// var ctx     = canvas.getContext("2d");
-// // ctx.globalCompositeOperation='destination-over';
-
-// ctx.beginPath();
-// ctx.moveTo(50, 140);
-// ctx.lineTo(150, 60);
-// ctx.lineTo(250, 140);
-// ctx.closePath();
-// ctx.stroke();
+// ************************* Canvas *******************
+var canvas = document.querySelector("#zoneCanvas");
+var ctx     = canvas.getContext("2d");
+ctx.fillStyle = 'rgb(229, 226, 225)'
+ctx.lineWidth = 0.2;
+ctx.beginPath();
+ctx.moveTo(1300, 0);
+ctx.lineTo(0, 450);
+ctx.closePath();
+ctx.stroke();
 
