@@ -448,8 +448,7 @@ body{
 }
 .emojiRow1{
     display: flex;
-}
-.emojiRowOverall{
+    justify-content: center;
 }
 /* ************** MEDIA QUERIES ***************/
 
