@@ -1,5 +1,6 @@
 // Affichage compte à rebours Wedding
-const jours=document.getElementById("jours");
+const jours=document.querySelector("#jours");
+const jours2 = document.querySelector("#jours2");
 const heures=document.getElementById("heures");
 const min=document.getElementById("min");
 const secondes=document.getElementById("sec");
@@ -15,6 +16,7 @@ if (sec > 0) {
     mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
     sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
     jours.innerHTML = j;
+    jours2.innerHTML = j;
     heures.innerHTML = h;
     min.innerHTML = mn;
     secondes.innerHTML = sec;
