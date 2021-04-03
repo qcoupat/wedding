@@ -1,5 +1,9 @@
 body{
     font-family: 'Shippori Mincho B1', serif;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
 }
 .lavande{
     z-index: 2;
@@ -376,7 +380,10 @@ body{
     border: 1px solid rgba(127,120,114,.2);
 }
 .prgmText2{
-    margin-left: 500px;
+    margin-left: 400px;
+    margin-right: 100px;
+    text-align: right;
+
 }
 
 /* *********** SECTION 2 **************/
@@ -425,7 +432,7 @@ body{
     width: 10%;
     border: 1px solid black;
     border-radius: 11.5px;
-    margin: 10px;
+    margin: 30px;
 }
 .emoji img{
     width: 100%;
@@ -449,6 +456,15 @@ body{
 .emojiRow1{
     display: flex;
     justify-content: center;
+}
+#Programme{
+    height: 140px;
+}
+#Informations{
+    height: 40px;
+}
+#Personnages{
+    height: 40px;
 }
 /* ************** MEDIA QUERIES ***************/
 

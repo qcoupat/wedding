@@ -17,16 +17,13 @@
         rel="stylesheet">
     <title>Emi & Quentin's Wedding</title>
 </head>
-
 <body>
     <div class="mainHeader">
         <div class="navLeft">
             <ul id="navbar__list">
-                <a href="./index.html">
-                    <li>Accueil</li>
-                </a>
-                <li class=""><a class="page-scroll" href="#programme">Programme</a></li>
-                <li class=""><a class="page-scroll" href="#informations">Informations</a></li>
+                <li class=""><a class="page-scroll" href="#accueil">Accueil</a></li>
+                <li class=""><a class="page-scroll" href="#Programme">Programme</a></li>
+                <li class=""><a class="page-scroll" href="#Informations">Informations</a></li>
             </ul>
         </div>
         <div class="header">
@@ -36,65 +33,68 @@
         </div>
         <div class="navRight">
             <ul id="navbar__list">
-                <li class=""><a class="page-scroll" href="#personnages">Personnages</a></li>
+                <li class=""><a class="page-scroll" href="#Personnages">Personnages</a></li>
                 <li class=""><a class="page-scroll" href="#hebergement">H&eacute;bergement</a></li>
                 <li class=""><a class="page-scroll" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
-    <div>
-        <ul id="background">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </ul>
-    </div>
-    <div class="logo">
-        <img src="./assets/img/lavande.png" alt="">
-    </div>
-    <div class="header2">
-        <div class="blocSTD">
-            <div class="date">
-                &#x1F680; Samedi 25 Juin 2022
-            </div>
+    <section id="accueil">
+        <div>
+            <ul id="background">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </ul>
         </div>
-        <div class="secondaryHeader">
-            <div class="blocCaR">
-                <div class="bloc1">
-                    <div class="compteAReb">
-                        <div class="jours">
-                            <span id="jours"></span>
-                            <br />
-                            <span>JOURS</span>
-                        </div>
-                        <div class="heures">
-                            <span id="heures"></span>
-                            <br />
-                            <span>HEURES</span>
-                        </div>
-                        <div class="min">
-                            <span id="min"></span>
-                            <br />
-                            <span>MIN</span>
-                        </div>
-                        <div class="sec">
-                            <span id="sec"></span>
-                            <br />
-                            <span>SECS</span>
+        <div class="logo">
+            <img src="./assets/img/lavande.png" alt="">
+        </div>
+        <div class="header2">
+            <div class="blocSTD">
+                <div class="date">
+                    &#x1F680; Samedi 25 Juin 2022
+                </div>
+            </div>
+            <div class="secondaryHeader">
+                <div class="blocCaR">
+                    <div class="bloc1">
+                        <div class="compteAReb">
+                            <div class="jours">
+                                <span id="jours"></span>
+                                <br />
+                                <span>JOURS</span>
+                            </div>
+                            <div class="heures">
+                                <span id="heures"></span>
+                                <br />
+                                <span>HEURES</span>
+                            </div>
+                            <div class="min">
+                                <span id="min"></span>
+                                <br />
+                                <span>MIN</span>
+                            </div>
+                            <div class="sec">
+                                <span id="sec"></span>
+                                <br />
+                                <span>SECS</span>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <a href="#Programme" class="page-scroll chevron"><img src="./assets/img/chevronDown.svg"></a>
             </div>
-            <a href="#programme" class="page-scroll chevron"><img src="./assets/img/chevronDown.svg"></a>
         </div>
-    </div>
+    </section>
+    <div id="Programme"></div>
     <div class="allInfo">
         <section id="programme">
             <div id="section1">
@@ -122,15 +122,16 @@
                 <div class="backgroundBlock"></div>
                 <div class="prgmEtTitre2">
                     <div class="prgmText2">
-                        <h3>Programme du Dimanche 26 juin</h3>
-                        <h3>11h</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt optio beatae consequatur impedit fuga quas velit!</p>
+                        <h1>Programme du Dimanche 26 juin</h1>
+                        <Rendez-vous>Pour profiter plus longtemps de ce moment ensemble, nous vous convions à un <span class="bold">brunch </span> le <span class="bold">lendemain </span>de 
+                            la cérémonie. Rendez-vous en fin<span class="bold"> de matinée</span>, toujours à la Bastide du Laval !</p>
                     </div>
                 </div>
 
             </div>
         </section>
-        <section id="sections">
+        <div id="Informations"></div>
+        <section id="informations">
             <div id="section2">
                 <canvas id="zoneCanvas1" width="1440" height="500"></canvas>
                 <div class="sectionTitre">
@@ -158,6 +159,7 @@
                     aut assumenda.</p>
             </div>
         </section>
+        <div id="Personnages"></div>
         <section id="personnages">
             <div id="section3">
                 <div class="sectionTitre">
@@ -167,13 +169,13 @@
                     <div class="emojiRow1">
                         <div class="emoji">
                             <img src="./assets/img/emoji/emi.JPG" alt="emoji Emi">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Emi</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
                         <div class="emoji">
                             <img src="./assets/img/emoji/quentin.JPG" alt="emoji Quentin">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Quentin</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
@@ -181,25 +183,25 @@
                     <div class="emojiRow1">
                         <div class="emoji">
                             <img src="./assets/img/emoji/cathy.JPG" alt="emoji Cathy">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Cathy</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
                         <div class="emoji">
                             <img src="./assets/img/emoji/philippe.JPG" alt="emoji Philippe">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Philippe</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
                         <div class="emoji">
                             <img src="./assets/img/emoji/carine.JPG" alt="emoji Carine">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Carine</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
                         <div class="emoji">
                             <img src="./assets/img/emoji/roland.JPG" alt="emoji Roland">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Roland</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
@@ -207,25 +209,25 @@
                     <div class="emojiRow1">
                         <div class="emoji">
                             <img src="./assets/img/emoji/marjo.JPG" alt="emoji Marjo">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Marjo</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
                         <div class="emoji">
                             <img src="./assets/img/emoji/viviane.JPG" alt="emoji Viviane">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Viviane</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
                         <div class="emoji">
                             <img src="./assets/img/emoji/pascal.JPG" alt="emoji Pascal">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Pascal</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
                         <div class="emoji">
                             <img src="./assets/img/emoji/leo.JPG" alt="emoji L&eacute;o">
-                            <h3>Lorem ipsum</h3>
+                            <h3>Léo</h3>
                             <p>Lorem</p>
                             <div class="statutEmoji">Lorem ipsum</div>
                         </div>
@@ -246,18 +248,6 @@
         <section id="contact">
             <div id="section5">
                 <h2>Contact</h2>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
-                <p>A</p>
                 <p>A</p>
                 <p>A</p>
             </div>
