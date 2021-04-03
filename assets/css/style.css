@@ -374,6 +374,13 @@ html{
     text-align: left;
     margin-left: -200px;
 }
+.prgmText p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+.prgmText h1{
+    font-size: 28px;
+}
 .trait{
     transform: rotate3d(0, 0, 1, 160deg);
     border: 1px solid rgba(127,120,114,.2);
@@ -382,9 +389,14 @@ html{
     margin-left: 400px;
     margin-right: 100px;
     text-align: right;
-
 }
-
+.prgmText2 h1{
+    font-size: 28px;
+}
+.prgmText2 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
 /* *********** SECTION 2 **************/
 
 #section2 {
@@ -409,7 +421,14 @@ html{
     position: relative;
     margin-top: -200px;
     margin-left: 15%;
-    padding: 20px;
+    padding: 20px 100px 20px;
+}
+.backgroundBlockInfo h2{
+    font-size: 28px;
+}
+.backgroundBlockInfo p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }
 
 /************* SECTION 3 *********/
@@ -469,6 +488,9 @@ html{
 #Personnages{
     height: 40px;
 }
+#Hebergements{
+    height: 40px;
+}
 .logoMcDo{
     width: 10%;
 }
@@ -485,6 +507,12 @@ html{
     position: relative;
     font-size: 90px;
     z-index: 2;
+    margin-bottom: 10px;
+}
+#section4 p{
+    padding: 0 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }
 .hebergement{
     width: 300px;
@@ -499,6 +527,9 @@ html{
     background-color: #FF5A5F;
     display: flex;
     justify-content: flex-end;
+}
+#hebergement1:hover{
+    transform: scale(1.1);
 }
 .hebergement1Text{
     font-weight: bolder;
@@ -522,12 +553,17 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#hebergement2:hover{
+    transform: scale(1.1);
+}
 .tagLineHeber{
     border-radius: 0 0 10px 10px;
     color: black;
     background-color: white;
     padding: 20px;
-    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 .airbnb{
     display: flex;
@@ -542,6 +578,9 @@ html{
     padding: 20px;
     font-weight: bold;
     margin-top: 129%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 .lienBellugue{
     text-decoration: none;
@@ -551,6 +590,10 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#hebergement3:hover{
+    transform: scale(1.1);
+}
+
 /* ************** MEDIA QUERIES ***************/
 
 @media (min-width:1920px){
