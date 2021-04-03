@@ -546,6 +546,11 @@ html{
 .lienBellugue{
     text-decoration: none;
 }
+#hebergement3{
+    background-image: url("../img/colombier2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* ************** MEDIA QUERIES ***************/
 
 @media (min-width:1920px){
