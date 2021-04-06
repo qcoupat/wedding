@@ -408,6 +408,7 @@ html{
     margin-top: 40px;
     font-size: 90px;
     z-index: 2;
+    padding-left: 70px;
 }
 .infoText{
     display: flex;
@@ -687,7 +688,7 @@ html{
         position: initial;
     }
     .logo img{
-        width: 100px;
+        width: 20%;
     }
     .titre{
         font-size: 20px;
@@ -759,6 +760,7 @@ html{
     }
     #section2 h2{
         font-size: 30px;
+        padding-left: 0px;
     }
     #zoneCanvas{
         display: none;
@@ -804,7 +806,10 @@ html{
     .emoji{
         width: 40%;
     }
-    .statutEmoji{
-        /* height: 60px; */
+    .emoji p {
+        display: none;
+    }
+    .emoji h3 {
+        padding-bottom: 20px;
     }
 }
