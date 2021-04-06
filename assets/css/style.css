@@ -613,7 +613,7 @@ html{
 }
 
 @media (max-width:600px) {
-    .mainHeader > .nav-btn {
+    /* .mainHeader > .nav-btn {
       display: inline-block;
       margin-left: 10px;
       margin-top: 10px;
@@ -662,7 +662,16 @@ html{
     }
     .navRight ul a, 
     .navLeft ul a{
-        color: white;
+        color: white; 
+    }*/
+    .navLeft{
+        display: none;
+    }
+    .navRight{
+        display: none;
+    }
+    .mainHeader{
+        position: initial;
     }
     .logo img{
         width: 100px;
@@ -731,7 +740,7 @@ html{
         flex-direction: column;
     }
     #section2 h2{
-        font-size: 20px;
+        font-size: 30px;
     }
     #zoneCanvas{
         width: 375px;
@@ -744,5 +753,39 @@ html{
         margin-left: 0;
         margin-top: -100px;
         padding: 20px 40px 20px;
+    }
+    .backgroundBlockInfo h2{
+        font-size: 20px;
+    }
+    .backgroundBlockInfo p{
+        font-size: 15px;
+    }
+    .infoText img{
+        width: 375px;
+    }
+    .backgroundBlock{
+        width: 375px;
+    }
+    #section3 h2{
+        font-size: 30px;
+    }
+    #section4 h2{
+        font-size: 30px;
+    }
+    #section4 p{
+        padding: 0 20px;
+    }
+    .emojiRow1{
+        flex-direction: column;
+    }
+    .hebergement{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .emoji{
+        width: 40%;
+    }
+    #emojis1{
+        flex-direction: row;
     }
 }
