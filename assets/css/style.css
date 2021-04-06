@@ -610,6 +610,19 @@ html{
     .allInfo{
         margin-top: 120px;
     }
+    #zoneCanvas{
+        width: 1920px;
+    }
+    #zoneCanvas1{
+        width: 1920px;
+    }
+    .navLeft{
+        margin-left: 50px;
+    }
+    .navRight{
+        margin-right: 50px;
+    }
+    
 }
 
 @media (max-width:600px) {
@@ -725,28 +738,33 @@ html{
     }
     #section11{
         flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+    #section11 img{
+        padding: 0px;
     }
     .prgmText2{
         margin: 0px;
     }
     .prgmText2 h1{
         font-size: 20px;
-        padding: 50px;
+        padding: 30px;
     }
     .prgmText2 p {
         padding: 30px;
     }
     #section2{
         flex-direction: column;
+        margin-top: 30px;
     }
     #section2 h2{
         font-size: 30px;
     }
     #zoneCanvas{
-        width: 375px;
-    }
+        display: none;
+        }
     #zoneCanvas1{
-        width: 375px;
+        display: none;
     }
     .backgroundBlockInfo{
         width: auto;
@@ -776,7 +794,8 @@ html{
         padding: 0 20px;
     }
     .emojiRow1{
-        flex-direction: column;
+        flex-direction: row;
+        flex-flow: wrap;
     }
     .hebergement{
         margin-left: auto;
@@ -785,7 +804,7 @@ html{
     .emoji{
         width: 40%;
     }
-    #emojis1{
-        flex-direction: row;
+    .statutEmoji{
+        /* height: 60px; */
     }
 }
