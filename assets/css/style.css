@@ -594,6 +594,13 @@ html{
     transform: scale(1.1);
 }
 
+/* RESPONSIVNESS MOBILE */
+
+.mainHeader > .nav-btn,
+.mainHeader > #nav-check{
+    display: none;
+}
+
 /* ************** MEDIA QUERIES ***************/
 
 @media (min-width:1920px){
@@ -602,5 +609,140 @@ html{
     }
     .allInfo{
         margin-top: 120px;
+    }
+}
+
+@media (max-width:600px) {
+    .mainHeader > .nav-btn {
+      display: inline-block;
+      margin-left: 10px;
+      margin-top: 10px;
+      right: 0px;
+      top: 0px;
+    }
+    .mainHeader > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .mainHeader > .nav-btn > label:hover,.mainHeader  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .mainHeader > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid black;
+    }
+    .mainHeader > .navLeft, .navRight{
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .mainHeader > .navLeft > a,
+    .mainHeader > .navRight > a {
+      display: block;
+      width: 100%;
+    }
+    .mainHeader > #nav-check:not(:checked) ~ .navLeft,
+    .mainHeader > #nav-check:not(:checked) ~ .navRight {
+      height: 0px;
+    }
+    .mainHeader > #nav-check:checked ~ .navLeft,
+    .mainHeader > #nav-check:checked ~ .navRight {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+    .navRight ul a, 
+    .navLeft ul a{
+        color: white;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .titre{
+        font-size: 20px;
+    }
+    .titreEsp{
+        font-size: 22px;
+    }
+    .jours{
+        font-size: 14px;
+    }
+    #jours{
+        font-size: 20px;
+    }
+    .heures{
+        font-size: 14px;
+    }
+    #heures{
+        font-size: 20px;
+    }
+    .min{
+        font-size: 14px;
+    }
+    #min{
+        font-size: 20px;
+    }
+    .sec{
+        font-size: 14px;
+    }
+    #sec{
+        font-size: 20px;
+    }
+    .compteAReb{
+        padding: 20px;
+    }
+    #section1{
+        flex-direction: column;
+    }
+    #programme h2{
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .prgmText{
+        margin-left: 0px;
+        padding: 30px;
+    }
+    .prgmText h1 {
+        font-size: 20px;
+    }
+    #section11{
+        flex-direction: column-reverse;
+    }
+    .prgmText2{
+        margin: 0px;
+    }
+    .prgmText2 h1{
+        font-size: 20px;
+        padding: 50px;
+    }
+    .prgmText2 p {
+        padding: 30px;
+    }
+    #section2{
+        flex-direction: column;
+    }
+    #section2 h2{
+        font-size: 20px;
+    }
+    #zoneCanvas{
+        width: 375px;
+    }
+    #zoneCanvas1{
+        width: 375px;
+    }
+    .backgroundBlockInfo{
+        width: auto;
+        margin-left: 0;
+        margin-top: -100px;
+        padding: 20px 40px 20px;
     }
 }
