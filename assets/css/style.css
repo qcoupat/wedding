@@ -623,6 +623,18 @@ html{
     .navRight{
         margin-right: 50px;
     }
+    .prgmText2 {
+        margin-right: 300px;
+    }
+    #section2 h2{
+        padding-left: 290px;
+    }
+    .fab{
+        font-size: 100px;
+    }
+    #tagAirbnb{
+        font-size: 26px;
+    }
     
 }
 
@@ -688,7 +700,7 @@ html{
         position: initial;
     }
     .logo img{
-        width: 20%;
+        width: 80px;
     }
     .titre{
         font-size: 20px;
