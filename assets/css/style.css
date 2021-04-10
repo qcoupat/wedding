@@ -331,10 +331,14 @@ html{
 }
 .photoPrgm{
     float: right;
+    width: 500px;
+    height: 350px;
 }
 #section1{
     display: flex;
     justify-content: flex-end;
+    margin-right: 30px;
+    margin-left: 30px
 }
 #section1 img{
     display: flex;
@@ -344,10 +348,17 @@ html{
     padding-top: 75px;
 }
 .backgroundBlock{
-    z-index: -1;
+    z-index: 0;
     width: 650px;
     height: 500px;
     background-color: #6e907a61;
+    position: absolute;
+}
+.backgroundBlock1{
+    z-index: 0;
+    width: 650px;
+    height: 500px;
+    background-color: white;
     position: absolute;
 }
 .sectionTitre{
@@ -359,13 +370,14 @@ html{
     display: flex;
     padding-top: 160px;
     align-items: center;
+    margin-right: 30px;
+    margin-left: 30px
 }
 #section11 img{
     display: flex;
     justify-content: flex-end;
     z-index: 2;
-    padding-right: 100px;
-    padding-top: 100px;
+    padding-left: 75px;
 }
 .bold{
     font-weight: bold;
@@ -385,7 +397,7 @@ html{
     border: 1px solid rgba(127,120,114,.2);
 }
 .prgmText2{
-    margin-left: 400px;
+    margin-left: 200px;
     margin-right: 100px;
     text-align: right;
 }
@@ -402,6 +414,7 @@ html{
     display: flex;
     /* align-items: center; */
     margin-top: 120px;
+    margin-right: 30px;
 }
 #section2 h2{
     margin-top: 40px;
@@ -412,7 +425,9 @@ html{
 .infoText{
     display: flex;
     align-self: baseline;
-    margin-left: auto;
+    margin-left: 150px;
+    width: 600px;
+    height: 500px;
 }
 .backgroundBlockInfo{
     z-index: 0;
@@ -420,7 +435,7 @@ html{
     background-color: #6e907a61;
     position: relative;
     margin-top: -200px;
-    margin-left: 15%;
+    margin-left: 10%;
     padding: 20px 100px 20px;
 }
 .backgroundBlockInfo1{
@@ -430,7 +445,7 @@ html{
     background-color: white;
     position: absolute;
     margin-top: -200px;
-    margin-left: 15%;
+    margin-left: 10%;
     padding: 20px 100px 20px;
 }
 .backgroundBlockInfo h2{
@@ -664,6 +679,7 @@ footer{
     }
     .prgmText2 {
         margin-right: 300px;
+        margin-left: 400px;
     }
     #section2 h2{
         padding-left: 290px;
@@ -673,6 +689,13 @@ footer{
     }
     #tagAirbnb{
         font-size: 26px;
+    }
+    .sectionTitre{
+        margin-right: 200px;
+    }
+    #section11 img{
+        padding-left: 75px;
+        padding-top: 0;
     }
     
 }
@@ -869,5 +892,14 @@ footer{
     }
     .emoji h3 {
         padding-bottom: 20px;
+    }
+    #section5 h2{
+        font-size: 30px;
+    }
+    #section5 p{
+        padding: 0 20px;
+    }
+    .support{
+        margin: 0 20px 20px;
     }
 }
