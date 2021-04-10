@@ -340,14 +340,14 @@ html{
     display: flex;
     justify-content: flex-end;
     z-index: 2;
-    padding-right: 100px;
-    padding-top: 100px;
+    padding-right: 75px;
+    padding-top: 75px;
 }
 .backgroundBlock{
     z-index: -1;
     width: 650px;
     height: 500px;
-    background-color: #F9F0EA;
+    background-color: #6e907a61;
     position: absolute;
 }
 .sectionTitre{
@@ -372,7 +372,6 @@ html{
 }
 .prgmText{
     text-align: left;
-    margin-left: -200px;
 }
 .prgmText p{
     font-family: 'Source Sans Pro', sans-serif;
@@ -418,8 +417,18 @@ html{
 .backgroundBlockInfo{
     z-index: 0;
     width: 800px;
-    background-color: #F9F0EA;
+    background-color: #6e907a61;
     position: relative;
+    margin-top: -200px;
+    margin-left: 15%;
+    padding: 20px 100px 20px;
+}
+.backgroundBlockInfo1{
+    z-index: 0;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
     margin-top: -200px;
     margin-left: 15%;
     padding: 20px 100px 20px;
@@ -594,7 +603,37 @@ html{
 #hebergement3:hover{
     transform: scale(1.1);
 }
-
+#section5 h2{
+    font-size: 90px;
+    margin-bottom: 0;
+}
+#section5 p{
+    margin-bottom: 50px;
+}
+footer{
+    background: #183f28;
+    color: white;
+    padding: 20px;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    border-right: 1px solid black;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.support{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.fas{
+    font-size: 30px;
+}
 /* RESPONSIVNESS MOBILE */
 
 .mainHeader > .nav-btn,
@@ -783,6 +822,12 @@ html{
     }
     .backgroundBlockInfo{
         width: auto;
+        margin-left: 0;
+        margin-top: -100px;
+        padding: 20px 40px 20px;
+    }
+    .backgroundBlockInfo1{
+        width: 375px;
         margin-left: 0;
         margin-top: -100px;
         padding: 20px 40px 20px;
