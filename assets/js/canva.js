@@ -9,7 +9,7 @@ ctx.lineTo(0, 600);
 ctx.closePath();
 ctx.stroke();
 
-// ************************* Canvas *******************
+// ************************* Canvas1 *******************
 var canvas = document.querySelector("#zoneCanvas1");
 var ctx     = canvas.getContext("2d");
 ctx.fillStyle = 'rgb(229, 226, 225)'
